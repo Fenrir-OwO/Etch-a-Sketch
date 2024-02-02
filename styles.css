@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 25px;
+    background-image: url("https://sitchu.com.au/media/vugpd5vj/rmit_gallery.jpg?mode=max&width=1400&rnd=132685882935900000");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 800px;
+}
+
+.column{
+    flex-basis: 100%;
+    min-height: 10px;
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.sidepanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(255, 68, 0, 0.717);
+    padding: 15px;
+    border-radius: 1cap;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.selected {
+    background-color: orangered;
+}
